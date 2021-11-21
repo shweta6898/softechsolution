@@ -1,0 +1,237 @@
+*{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration:none;
+	font-size:16px;
+	color:white;
+	font-weight:bold;
+}
+#slider .carousel-indicators .indicators{
+	width:10px;
+	height:10px;
+	background-color:white;
+	border:1px solid black;
+	border-radius:50px;
+}
+#slider .carousel-caption h1{
+	font-size:80px;
+	font-weight:bold;
+	margin:20px;
+	padding:10px;
+}
+#slider .carousel-caption p{
+	font-size:20px;
+	margin:70px;
+	font-weight:bold;
+}
+#slider .carousel-caption a{
+	text-decoration:none;
+	font-weight:bold;
+	font-size:16px;
+	margin-bottom:30px;
+}
+#features h1{
+	font-size:50px;
+	padding:20px;
+	color:white;
+	font-weight:bold;
+}
+#features p{
+	font-size:18px;
+	text-align:justify;
+	padding:10px;
+	color:white;
+}
+.icon{
+	width:100px;
+	height:100px;
+	border:2px solid black;
+	border-radius:50px;
+	position:relative;
+	background:white;
+	left:35%;
+}
+.icon i{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+.icon .fa{
+	font-size:50px;
+}
+#address{
+	background:black;
+	opacity:0.8;
+	color:white;
+	padding:50px;
+}
+#address h1{
+	text-align:center;
+	font-size:60px;
+}
+#address p{
+	padding:20px;
+	text-align:center;
+	font-size:16px;
+}
+#address i{
+	font-size:18px;
+	padding:8px;
+	margin:10px;
+	border:2px solid white;
+	border-radius:50%;
+}
+#service{
+	width:100%;
+	height:250px;
+	background:black;
+	opacity:0.8;
+}
+#service h1{
+	text-align:center;
+	color:white;
+	font-size:60px;
+	padding:80px;
+}
+#services p{
+	font-size:18px;
+	text-align:justify;
+	padding:10px;
+	color:white;
+}
+#about{
+	background:black;
+	opacity:0.8;
+	padding:50px;
+}
+#about h1{
+	color:white;
+	font-size:50px;
+	text-align:center;
+	padding:20px;
+}
+#about p{
+	color:white;
+	text-align:justify;
+	padding:10px;
+	font-size:18px;
+}
+#team h1{
+	text-align:center;
+	font-size:50px;
+	padding:30px;
+}
+#contact{
+	width:100%;
+	background:black;
+	opacity:0.8;
+}
+#contact h1{
+	text-align:center;
+	font-size:40px;
+	color:white;
+	margin-top:30px;
+	padding:50px;
+}
+label{
+	color:white;
+	font-size:20px;
+}
+@media (min-width : 768px) and (max-width : 798px){
+	#slider .carousel-caption h1{
+	font-size:55px;
+	margin:10px;
+}
+#slider .carousel-caption p{
+	margin:80px;
+}
+#slider .carousel-caption a{
+	margin-bottom:20px;
+}
+}
+@media (min-width : 600px) and (max-width : 768px){
+	#slider .carousel-caption h1{
+	font-size:60px;
+	margin:10px;
+}
+#slider .carousel-caption p{
+	margin:60px;
+}
+#slider .carousel-caption a{
+	margin-bottom:20px;
+}
+}
+@media (min-width : 500px) and (max-width : 600px){
+	#slider .carousel-caption h1{
+	font-size:40px;
+	margin:10px;
+}
+#slider .carousel-caption p{
+	margin:60px;
+}
+#slider .carousel-caption a{
+	margin-bottom:20px;
+}
+}
+@media (min-width : 420px) and (max-width : 500px){
+	#slider .carousel-caption h1{
+	font-size:40px;
+	margin:10px;
+}
+#slider .carousel-caption p{
+	margin:50px;
+}
+#slider .carousel-caption a{
+	margin-bottom:20px;
+}
+}
+@media (min-width : 362px) and (max-width : 420px){
+	#slider .carousel-caption h1{
+	font-size:35px;
+	margin:10px;
+}
+#slider .carousel-caption p{
+	margin:30px;
+}
+#slider .carousel-caption a{
+	margin-bottom:20px;
+}
+}
+@media (min-width : 200px) and (max-width : 361px){
+	#slider .carousel-caption h1{
+	font-size:30px;
+	margin:10px;
+}
+#slider .carousel-caption p{
+	margin:10px;
+}
+#slider .carousel-caption a{
+	margin-bottom:20px;
+}
+}
+@media (min-width : 501px) and (max-width : 757px){
+#service h1{
+	font-size:40px;
+	padding:80px;
+}
+}
+@media (min-width : 404px) and (max-width : 501px){
+#service h1{
+	font-size:35px;
+	padding:80px;
+}
+}
+@media (min-width : 300px) and (max-width : 403px){
+#service h1{
+	font-size:30px;
+	padding:80px;
+}
+@media (min-width : 200px) and (max-width : 300px){
+#service h1{
+	font-size:20px;
+	padding:80px;
+}
+}
